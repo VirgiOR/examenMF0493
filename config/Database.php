@@ -1,6 +1,6 @@
 <?php
 define('HOST','localhost');
-define('PORT', '3310'); // por defeceto es el 3306
+define('PORT', '3306'); // por defeceto es el 3306
 define('DBNAME', 'tienda_web');
 define('USER', 'admin_tienda');
 define('PASSWORD', 'P100cpbvepatv!');

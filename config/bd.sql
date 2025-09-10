@@ -1,3 +1,4 @@
+-- Active: 1750671267468@@127.0.0.1@3306@tienda_web
 drop database if exists tienda_web ; -- peligro
 
 create database if not exists  tienda_web 
@@ -21,6 +22,7 @@ create table usuarios (
 
 insert into usuarios (nombre_usuario,email,contrasena,rol) values
 ('admin','123456');
+insert into categorias (nombre_categoria) values ('Electrónica');
 
 create TABLE   categorias (
     id int unsigned AUTO_INcreMENT primary key,
